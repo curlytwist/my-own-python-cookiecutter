@@ -27,4 +27,22 @@ Inside an empty folder for the new project, run:
 cookiecutter https://github.com/curlytwist/my-own-python-cookiecutter
 ```
 
-Thanks for reading!
+### Create the conda environment
+------------
+
+Inside an empty folder for the new project, run:
+``` python
+make -f Makefile    
+```
+
+If you get [this error](https://apple.stackexchange.com/questions/254380/why-am-i-getting-an-invalid-active-developer-path-when-attempting-to-use-git-a) on Mac while running the above command, in the Terminal run the following in order to install the Command Line Tools package:
+
+ ```
+ xcode-select --install     
+```
+ And if alone it does not work, run also:
+ ```
+ xcode-select --reset
+ ```
+
+#### Thanks for reading!
