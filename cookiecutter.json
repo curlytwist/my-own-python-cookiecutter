@@ -1,0 +1,8 @@
+{
+    "project_name": "Project Name",
+    "repo_name": "{{ cookiecutter.project_name.lower().replace(' ', '_') }}",
+    "author_name": "Your name (or your organization/company/team)",
+    "description": "A short description of the project.",
+    "python_interpreter": ["python3", "python"],
+    "conda_env_name": "env_{{ cookiecutter.project_name.lower().replace(' ', '_') }}"
+}

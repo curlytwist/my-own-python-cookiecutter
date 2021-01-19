@@ -1,0 +1,17 @@
+name: py38bis
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.8.6
+  - ipykernel
+  - pytest
+  - conda-forge::numpy
+  - conda-forge::pandas
+  - matplotlib
+  - seaborn
+  - jupyterlab
+  - nodejs
+  - ipympl
+  - nbformat==4.4.*
+  - python-dotenv>=0.5.1
