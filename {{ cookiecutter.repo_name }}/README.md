@@ -51,4 +51,4 @@ Project Organization
 
 --------
 
-<p><small>Project based on the <a target="_blank" href="https://curlytwist.github.io/cookiecutter-data-science/">curlytwist ds project template</a>. #cookiecutterdatascience</small></p>
+<p><small>Project based on the <a target="_blank" href="https://github.com/curlytwist/my-own-python-cookiecutter">curlytwist's python ds project template</a>. #cookiecutterdatascience</small></p>
